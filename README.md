@@ -2,19 +2,18 @@
 
 # 👋 Bonjour, je suis Lacina Sidibé
 
-### 🤖 Robotique · ROS 2 · Simulation · Réalité virtuelle · Python
+### 🤖 Robotique mobile · ROS 2 · Systèmes embarqués · Simulation
 
 <p>
   <a href="https://github.com/lacinasidibe114-sudo">
     <img src="https://img.shields.io/badge/GitHub-lacinasidibe114--sudo-181717?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=lacinasidibe114-sudo&style=for-the-badge&color=0e75b6" alt="Profile views" />
-  <img src="https://img.shields.io/badge/Focus-Robotics%20%26%20Simulation-0e75b6?style=for-the-badge" alt="Focus" />
 </p>
 
 <p>
-  Je conçois des systèmes robotiques et des environnements de simulation en combinant
-  <strong>ROS 2</strong>, <strong>Python</strong>, <strong>Unity</strong> et les technologies immersives.
+  Je développe des systèmes robotiques en combinant <strong>ROS 2</strong>,
+  <strong>C++</strong>, <strong>Python</strong>, <strong>Arduino</strong> et la simulation.
 </p>
 
 </div>
@@ -23,119 +22,88 @@
 
 ## 🚀 À propos de moi
 
-Je suis passionné par la création de systèmes intelligents capables de percevoir leur environnement,
-communiquer entre plusieurs composants et interagir avec le monde réel ou virtuel.
+Je conçois des prototypes robotiques capables de percevoir leur environnement,
+communiquer avec leurs composants matériels et se déplacer dans des environnements réels ou simulés.
 
-- 🔭 Je travaille sur des projets de **robotique mobile**, de **ROS 2** et de **simulation**.
-- 🧠 J’explore l’intégration entre **robotique**, **Unity** et **réalité virtuelle**.
-- 🐍 J’utilise principalement **Python** pour développer des nœuds, scripts et outils robotiques.
-- 🧩 Je structure mes projets autour d’architectures modulaires et communicantes.
-- 🌱 Je continue à approfondir la navigation autonome, la simulation et les systèmes cyber-physiques.
-- 🤝 Ouvert aux collaborations dans la robotique, l’IA appliquée et les environnements immersifs.
+- 🔭 Je travaille sur la robotique mobile et les architectures ROS 2.
+- ⚙️ Je développe des interfaces `ros2_control` pour moteurs, servomoteurs et capteurs.
+- 🧠 J'explore la navigation autonome, la simulation Gazebo et les systèmes cyber-physiques.
+- 🐍 J'utilise Python pour les nœuds, outils et services, et C++ pour les composants temps réel.
+- 🔌 J'intègre Arduino, encodeurs, moteurs DC, IMU et communications série.
+- 🤝 Je suis ouvert aux collaborations autour de la robotique et de l'IA appliquée.
 
----
+## 🧭 Domaines techniques
 
-## 🧭 Mon univers technique
-
-```mermaid
-graph LR
-    A[Python] --> B[ROS 2]
-    B --> C[Robotique mobile]
-    B --> D[Communication entre nœuds]
-    B --> E[Capteurs & actionneurs]
-    C --> F[Simulation]
-    F --> G[Unity]
-    G --> H[Réalité virtuelle]
-    H --> I[Interaction immersive]
-```
-
-### Domaines d’intérêt
-
-| Domaine | Technologies / concepts |
+| Domaine | Technologies |
 |---|---|
-| 🤖 Robotique | ROS 2, nœuds, topics, services, packages |
-| 🐍 Développement | Python, scripts d’automatisation, architecture modulaire |
-| 🌐 Simulation | Unity, environnements virtuels, scénarios robotisés |
-| 🥽 Immersion | Réalité virtuelle, interaction 3D, visualisation |
-| 🧪 Expérimentation | Prototypage, intégration logicielle, tests de systèmes |
+| Robotique | ROS 2, `ros2_control`, navigation, URDF/Xacro, TF |
+| Logiciel | C++, Python, architecture modulaire, API REST |
+| Matériel | Arduino, moteurs DC, servomoteurs, encodeurs, MPU6050 |
+| Simulation | Gazebo, Unity, environnements robotisés |
+| Outils | Linux, Git, GitHub, VS Code, Make |
 
----
+## 📌 Projets récents
 
-## 📌 Projets sélectionnés
+### 🤖 [Diff_robot_real](https://github.com/lacinasidibe114-sudo/Diff_robot_real)
 
-### 🤖 [Last_ros](https://github.com/lacinasidibe114-sudo/Last_ros)
-Projet Python orienté **ROS 2**, destiné à l’expérimentation et au développement de fonctionnalités robotiques.
+Workspace ROS 2 pour un robot mobile différentiel, avec simulation Gazebo,
+pilotage matériel réel, firmware Arduino, encodeurs, PID, odométrie et TF.
 
-`Python` · `ROS 2` · `Robotique`
+`ROS 2` · `C++` · `Python` · `Gazebo` · `Arduino`
 
----
+### 🏥 [HospiBot](https://github.com/lacinasidibe114-sudo/hospibot)
+
+Système de navigation robotique hospitalière combinant robotique mobile,
+simulation, interfaces utilisateur et services d'intelligence artificielle.
+
+`ROS 2` · `Python` · `Gazebo` · `API REST`
+
+### 🎛️ [servo_moteur](https://github.com/lacinasidibe114-sudo/servo_moteur)
+
+Interface ROS 2 `ros2_control` pour piloter une tête robotique Pan/Tilt
+avec deux servomoteurs et un Arduino.
+
+`C++` · `ROS 2` · `ros2_control` · `Arduino`
+
+### ⚙️ [jga25_hardware](https://github.com/lacinasidibe114-sudo/jga25_hardware)
+
+Interface matérielle ROS 2 pour un moteur CC JGA25-370 avec encodeur,
+pont en H L298N et boucle de vitesse PID.
+
+`C++` · `ROS 2` · `Encodeur` · `PID`
 
 ### 🔗 [unity_ros2_ws](https://github.com/lacinasidibe114-sudo/unity_ros2_ws)
-Espace de travail dédié à l’intégration entre **Unity** et **ROS 2**, pour connecter simulation 3D,
-communication robotique et expérimentation immersive.
+
+Workspace dédié à l'intégration entre Unity et ROS 2 pour la simulation 3D
+et l'expérimentation robotique immersive.
 
 `Python` · `ROS 2` · `Unity` · `Simulation`
 
----
-
-### 🌐 [VR_Final](https://github.com/lacinasidibe114-sudo/VR_Final)
-Projet consacré à la **réalité virtuelle**, à l’interaction 3D et à la conception d’expériences immersives.
-
-`VR` · `Unity` · `3D` · `Interaction immersive`
-
----
-
-### 🛠️ [ros2_ws](https://github.com/lacinasidibe114-sudo/ros2_ws)
-Workspace ROS 2 servant de base pour organiser, compiler et tester des packages et composants robotiques.
-
-`Python` · `ROS 2` · `Workspace`
-
----
-
-### 📚 [ROS2_TP](https://github.com/lacinasidibe114-sudo/ROS2_TP)
-Travaux pratiques et expérimentations autour de **ROS 2**, de ses concepts fondamentaux et du développement robotique.
-
-`ROS 2` · `Robotique` · `Apprentissage`
-
----
-
-## 🏗️ Architecture type de mes projets
+## 🏗️ Architecture de travail
 
 ```mermaid
-flowchart TB
-    Sensors[Capteurs / Entrées] --> Nodes[Nœuds ROS 2]
-    Nodes --> Topics[Topics & Services]
-    Topics --> Logic[Logique Python]
-    Logic --> Robot[Robot / Actionneurs]
-    Logic --> Sim[Simulation Unity]
-    Sim --> VR[Interface VR]
-    VR -. Visualisation & commandes .-> Topics
+flowchart LR
+    S[Capteurs] --> R[ROS 2]
+    R --> L[Logique C++ / Python]
+    L --> H[ros2_control]
+    H --> A[Arduino / Actionneurs]
+    R <--> G[Gazebo / Unity]
 ```
 
-Cette approche permet de séparer clairement :
-
-- la perception et les entrées ;
-- la logique applicative ;
-- la communication entre composants ;
-- les actionneurs et le robot ;
-- la simulation et la visualisation immersive.
-
----
+Cette architecture sépare la perception, la logique applicative, la communication
+ROS 2, le contrôle matériel et la simulation afin de faciliter les tests et l'évolution des projets.
 
 ## 🧰 Technologies
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,unity,git,github,linux,vscode" alt="Technologies" />
+  <img src="https://skillicons.dev/icons?i=cpp,python,arduino,unity,linux,git,github,vscode" alt="Technologies" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/ROS%202-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS 2" />
-  <img src="https://img.shields.io/badge/Simulation-Unity-black?style=for-the-badge&logo=unity" alt="Unity" />
-  <img src="https://img.shields.io/badge/Robotics-Autonomous%20Systems-0e75b6?style=for-the-badge" alt="Robotics" />
-  <img src="https://img.shields.io/badge/VR-Immersive%20Experiences-7B2CBF?style=for-the-badge" alt="VR" />
+  <img src="https://img.shields.io/badge/Gazebo-Simulation-orange?style=for-the-badge" alt="Gazebo" />
+  <img src="https://img.shields.io/badge/Robotics-Mobile%20Robots-0e75b6?style=for-the-badge" alt="Robotics" />
 </p>
-
----
 
 ## 📊 Activité GitHub
 
@@ -144,16 +112,9 @@ Cette approche permet de séparer clairement :
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lacinasidibe114-sudo&layout=compact&hide_border=true&theme=transparent" alt="Langages principaux" />
 </div>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=lacinasidibe114-sudo&theme=transparent&hide_border=true" alt="GitHub streak" />
-</div>
-
 ---
 
-## 🎯 Vision
-
-> Construire des expériences robotiques fiables, intelligentes et immersives en reliant le logiciel,
-> la simulation et l’interaction humaine.
+> Construire des robots fiables en reliant le logiciel, le matériel et la simulation.
 
 <div align="center">
 
